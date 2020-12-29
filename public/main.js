@@ -20,7 +20,6 @@ socket.on('clients-total', (data) => {
 
 function sendMessage() {
   if (messageInput.value === '') return
-  // console.log(messageInput.value)
   const data = {
     name: nameInput.value,
     message: messageInput.value,
@@ -32,7 +31,6 @@ function sendMessage() {
 }
 
 socket.on('chat-message', (data) => {
-  // console.log(data)
   messageTone.play()
   addMessageToUI(false, data)
 })
