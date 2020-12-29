@@ -7,8 +7,13 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "web-sockets",
+    "socket.io",
+    "nodejs",
+    "real-time"
+  ],
+  "author": "Sourik Ghosh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
